@@ -1,9 +1,11 @@
 *{
     background-color: lightcoral;
+    color: white;
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 100px;
 }
 ul{
     display: flex;
@@ -15,4 +17,15 @@ a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 10px 24px;
+    color: white;
+    background-color: brown;
+    border-radius: 50%;
+    border-color: brown;
 }
