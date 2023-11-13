@@ -1,5 +1,5 @@
 *{
-    background-color: lightcoral;
+    background-color: black;
     color: white;
 }
 .header{
@@ -7,14 +7,23 @@
     justify-content: space-around;
     margin-bottom: 100px;
 }
+.logo-image{
+    display: flex;
+    align-items: center;
+    border: 10px;
+}
 .header-image{
     border-radius: 50%;
+    margin-left: 0;
 }
 ul{
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 2rem;
     
+}
+li{
+    font-size: 22px;
 }
 a{
     text-decoration: none;
@@ -25,14 +34,24 @@ a{
     display: flex;
     justify-content: space-around;
 }
-.content-image{
-    width: 50px;
-    height:auto;
-    flex-grow: 0;
-    flex-wrap: wrap;
-    flex-basis: 0;
-    
+.header-image{
+    display: flex;
+    width: 120px;
+    height: auto;
+    border-radius: 30%;
+    margin-left: 0px;
+    justify-content: flex-start;
 }
+.content-image{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+/*img:hover{
+    transform: scaleX(-1);
+}*/
 button{
     padding: 10px 24px;
     color: white;
