@@ -80,6 +80,7 @@ button{
     gap: 4rem;
     background-color: bisque;
     justify-content: space-evenly;
+    margin-bottom: 100px;
 
 }
 .image1{
@@ -97,14 +98,20 @@ button{
     font-weight: bold;
     text-align: center;
 }
-.section3{
+.section-3{
     background-color: gray;
+    margin-top: 0;
+    padding:50px;
 }
 .inspire{
     background-color: gray;
     text-align: center;
+    font-size: 30px;
+    color: black;
 }
 pre{
     text-align: center;
     background-color: gray;
+    font-size: 24px;
+    color: black;
 }
