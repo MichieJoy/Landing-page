@@ -59,3 +59,16 @@ button{
     border-radius: 50%;
     border-color: brown;
 }
+.content{
+    display: flex;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: bisque;
+}
+.heading1{
+    color: brown;
+    background-color:bisque ;
+}
