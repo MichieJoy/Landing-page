@@ -73,13 +73,38 @@ button{
 .heading1{
     color: brown;
     background-color:bisque ;
+    margin: 50px;
 }
 .cliche-images{
     display: flex;
-    
+    gap: 4rem;
+    background-color: bisque;
+    justify-content: space-evenly;
 
 }
 .image1{
-    max-width: 100px;
-    height: auto;
+    max-width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.imageA, .imageB, .imageC, .imageD{
+    background-color: bisque;
+}
+.image-text{
+    color: black;
+    background-color: bisque;
+    font-weight: bold;
+    text-align: center;
+}
+.section3{
+    background-color: gray;
+}
+.inspire{
+    background-color: gray;
+    text-align: center;
+}
+pre{
+    text-align: center;
+    background-color: gray;
 }
