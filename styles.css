@@ -54,10 +54,10 @@ a{
 }*/
 button{
     padding: 10px 24px;
-    color: white;
-    background-color: brown;
+    color: black;
+    background-color: white;
     border-radius: 50%;
-    border-color: brown;
+    border-color: white;
 }
 .content{
     display: flex;
@@ -114,4 +114,41 @@ pre{
     background-color: gray;
     font-size: 24px;
     color: black;
+}
+.lastSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 40px;
+  background-color: bisque;
+
+}
+.box, .action1{
+    background-color:aqua;
+    color: black;
+    margin-top:40px;
+    border-radius: 20px;
+    padding-right: 80px;
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+.action1{
+    font-size: 24px;
+}
+.box{
+    display: flex;
+}
+.btn{
+    border-radius: 10px;
+    margin: 40px 2px;
+    background-color:aqua;
+    color: black;
+    border-color:white
+}
+footer{
+    background-color: black;
+    color: white;
+    padding:20px;
+    display: flex;
+    justify-content: center;
 }
