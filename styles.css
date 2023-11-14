@@ -117,7 +117,7 @@ pre{
 }
 .lastSection{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
    margin-bottom: 40px;
   background-color: bisque;
@@ -137,6 +137,7 @@ pre{
 }
 .box{
     display: flex;
+    
 }
 .btn{
     border-radius: 10px;
@@ -145,10 +146,19 @@ pre{
     color: black;
     border-color:white
 }
+.top{
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
 footer{
     background-color: black;
     color: white;
     padding:20px;
     display: flex;
     justify-content: center;
+}
+.top{
+    text-align: center;
 }
